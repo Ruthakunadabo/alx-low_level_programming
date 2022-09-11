@@ -3,18 +3,17 @@
 #include <time.h>
 
 /**
- *
  * main - Entry point of C program.
  * This program detects the last digit in n
  * and prints some message regarding the last digit.
+ *
  * Return: 0 as Success.
  */
 
 int main(void)
-
 {
 int n, d;
-	
+
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 d = n % 10;
