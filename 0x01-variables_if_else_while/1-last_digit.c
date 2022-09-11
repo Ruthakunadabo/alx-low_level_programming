@@ -5,11 +5,8 @@
 /**
  *
  * main - Entry point of C program.
- *
  * This program detects the last digit in n
- *
  * and prints some message regarding the last digit.
- *
  * Return: 0 as Success.
  */
 
