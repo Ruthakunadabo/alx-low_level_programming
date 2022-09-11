@@ -1,38 +1,33 @@
 #include <stdio.h>
 
 /**
- * main - Prints numbers between 00 to 89.
- *
- * Return: Always 0 (success)
+ * main - Entry point of C program.
+ * This program prints all possible
+ * combination of two digits
+ * Return: 0 as Success.
  */
+
 int main(void)
 {
-int i, e;
+int i, j;
 
-i =48;
-e = 48;
-
-while (e <58)
+for (i = '0'; i <= '8'; i++)
 {
-i= 48;
-while (i <58)
+for (j = i + 1; j <= '9'; j++)
 {
-if (e ! =i && e < i)
+if (i != j)
 {
-
-putchar (e);
-putchar (i);
-if (i == 57 && e == 56)
+putchar(i);
+putchar(j);
+if (i != '8' || j != '9')
 {
-	break;
-}
 putchar(',');
-putchar('');
+putchar(' ');
 }
-i++;
 }
-e++'
 }
-puchar('\n');
+}
+putchar('\n');
+
 return (0);
 }
