@@ -19,7 +19,6 @@ int y = (i * j) % 10;
 
 if ((i * j) > 9)
 _putchar(x + '0');
-
 _putchar(y + '0');
 
 if (j != 9)
