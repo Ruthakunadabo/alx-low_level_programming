@@ -7,7 +7,7 @@
  * print_to_98 - Print from n to 98.
  *
  * @n: function parameters. n is the starting
- * point of the printing. 
+ * point of the printing.
  *
  * Return: void
  */
@@ -27,11 +27,10 @@ printf("%d", i);
 }
 }
 else if (n > STOP)
-{
-for (i = n; i >= STOP; i--)
+{for (i = n; i >= STOP; i--)
 {
 if (i != STOP)
-printf("%d, ", i)
+printf("%d, ", i);
 else
 printf("%d", i);
 }
