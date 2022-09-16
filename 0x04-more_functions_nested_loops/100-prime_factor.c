@@ -2,9 +2,9 @@
 
 /**
  * main - Finds and prints the largest prime
- *  factor of the number 612852475143.
+ * factor of the number 612852475143.
  *
- *   Return: Always 0.
+ * Return: Always 0.
  */
 int main(void)
 {
@@ -21,7 +21,7 @@ continue;
 for (div = 3; div < (prime / 2); div += 2)
 {
 if ((prime % div) == 0)
-prime /= div;
+prime /= div;
 }
 }
 printf("%ld\n", prime);
