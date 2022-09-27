@@ -4,10 +4,8 @@
 /**
  * _strchr - A program the locates the first occurance of c
  * in s.
- *
  * @s: The string to be searched
  * @c: The character we are searching for
- *
  * Return: A pointer to first occurance of c in s or NULL.
  */
 
@@ -20,6 +18,5 @@ for (i = 0; s[i] != '\0'; i++)
 if (s[i] == c)
 return (s + i);
 }
-
 return (NULL);
 }
