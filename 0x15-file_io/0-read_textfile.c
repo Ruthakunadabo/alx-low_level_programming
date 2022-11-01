@@ -33,4 +33,4 @@ close(fd);
 free(buf);
 
 return (nwr);
-{
+}
